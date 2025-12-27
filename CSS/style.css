@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+  color: #ffffff;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+/* Header */
+
+.header {
+  background-color: #fa793c;
+  height: 80px;
+}
+
+.header-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-right nav a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.user-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Section*/
+.section1 {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.section1::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 2;
+}
+
+.section1-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 3;
+}
+
+.section1-content h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 58px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 10px 40px;
+  background-color: #fa793c;
+  border: 2px solid #fa793c;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.section2 {
+  background-color: #000000;
+  padding: 80px 0;
+}
+
+.section2 h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.cards article {
+  width: 25%;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.cards article:hover {
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.cards img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer {
+  background-color: #fa793c;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-nav a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.social li {
+  display: flex;
+  align-items: center;
+}
+
+.social img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-address a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.footer-address img {
+  width: 16px;
+  height: 16px;
+}
