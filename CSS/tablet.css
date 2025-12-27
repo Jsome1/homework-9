@@ -1,0 +1,94 @@
+@media (max-width: 834px) and (min-width: 710px) {
+  .container {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  /* Header */
+  .header {
+    height: 68px;
+  }
+
+  .logo span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .header-right nav a {
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 14px;
+  }
+
+  .user-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* Section */
+  .section1 {
+    height: 480px;
+  }
+
+  .section1-content h2 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .btn {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 10px 30px;
+  }
+
+  .section2 {
+    padding: 56px 0;
+  }
+
+  .section2 h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 28px;
+  }
+
+  .cards {
+    gap: 16px;
+  }
+
+  /* Tablet-ზე მხოლოდ 3 ფოტო */
+  .cards article {
+    width: 33.333%;
+  }
+
+  .cards article:nth-child(4) {
+    display: none;
+  }
+
+  .cards img {
+    height: 220px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 32px 0;
+  }
+
+  .footer-nav a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .social img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .social img[alt="YouTube"] {
+    width: 32px;
+  }
+
+  .footer-address a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
